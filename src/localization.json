@@ -1,0 +1,20 @@
+[
+    {
+        "lang": "en",
+        "strings": {
+            "navbar": {
+                "homePage": "Home",
+                "ref": "References"
+            }
+        }
+    },
+    {
+        "lang": "tr",
+        "strings": {
+            "navbar": {
+                "homePage": "Anasayfa",
+                "ref": "Kaynakça"
+            }
+        }
+    }
+]
