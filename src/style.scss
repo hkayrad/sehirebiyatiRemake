@@ -15,9 +15,11 @@ nav.navBar {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   gap: 12rem;
-  background-color: grey;
   padding: 1rem 0;
+  position: absolute;
+  z-index: 50;
 
   .logo {
     width: 6rem;
@@ -41,5 +43,17 @@ nav.navBar {
         }
       }
     }
+  }
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    transform: translateX(-25%);
   }
 }

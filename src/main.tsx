@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./style.css";
 
 import Root from "./Root";
+import Home from "./components/Home";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,11 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "references",
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/references",
         element: <p>zort</p>,
       },
     ],
